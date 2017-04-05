@@ -1,0 +1,98 @@
+/* General Styling*/
+html {
+  max-height: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'oswald', sans-serif; 
+  margin: 0;
+}
+.home-page {
+  background-image: url(https://www.plr.me/wp-content/uploads/wood-desk-background.jpg);
+}
+.resume-page {
+  background-image: url(http://www.inart.co.il/wp-content/uploads/2014/08/office-table.jpg);
+}
+.portfolio-page {
+  background-image: url(https://pdmrhino.com/assets/img/desk.jpg);
+}
+header {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+footer {
+  background-color: #f21313;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 5px;
+}
+footer a:hover {
+  color: #cccccc;
+}
+main {
+  background-color: #ffffff;
+  margin: 25px auto;
+  padding: 0px 80px;
+}
+nav {
+  width: 100%;  
+}
+
+/* Navigation Styling */
+nav ul {
+  background-color: #f21313;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  display: inline;
+}
+nav li a {
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #9e0c0c;
+}
+
+/* Content Styling */
+.back-to-top {
+  height: 50px;
+  width: 60px;
+}
+.homephoto {
+  padding: 10px;
+}
+.h2, h3, h4, h5, h6 {
+  font-family: 'anton', sans-serif;
+}
+.home h1  {
+  font-family: 'Amatic SC', sans-serif;
+  text-align: center;
+  text-shadow: 0px 0px 10px #06f, 0px 0px 15px #69f, 0px 0px 20px #0ff;
+  font-size: 40px;
+}
+.home h3 {
+  text-align: center;
+}
+.portfolio-content img {
+  border-radius: 6px;
+  margin: 0;
+}
+.portfolio h1 {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 0px 0px 10px #06f, 0px 0px 15px #69f, 0px 0px 20px #0ff;
+}
