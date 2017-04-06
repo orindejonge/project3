@@ -62,8 +62,11 @@ nav li a {
   padding: 14px 20px;
   text-decoration: none;
 }
-nav li a:hover {
+nav li a:hover:not(.active) {
   background-color: #9e0c0c;
+}
+.active {
+  background-color: darkgrey;
 }
 
 /* Content Styling */
