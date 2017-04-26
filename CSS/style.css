@@ -20,6 +20,9 @@ body {
 .portfolio-page {
   background-image: url(https://pdmrhino.com/assets/img/desk.jpg);
 }
+.contact-page{
+  background-image: url(https://rasalsi.files.wordpress.com/2015/08/freelance-writers-desk.jpeg);
+}
 header {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -31,15 +34,15 @@ footer {
   font-size: 12px;
   margin: 0 auto;
   text-align: center;
-  padding: 0px 5px;
+  padding: 3px 10px;
 }
 footer a:hover {
   color: #cccccc;
 }
 main {
-  background-color: #ffffff;
-  margin: 25px auto;
-  padding: 0px 80px;
+  background-color: rgba(255,255,255,0.7);
+  margin: 27px auto;
+  padding: 2px 80px;
 }
 nav {
   width: 100%;  
@@ -70,17 +73,22 @@ nav li a:hover:not(.active) {
 }
 
 /* Content Styling */
-.back-to-top {
+.back-to-top-img {
   height: 50px;
   width: 60px;
 }
+.contact p {
+  margin: 0px 100px;
+}
 .homephoto {
-  padding: 10px;
+  display: block;
+  margin: auto;
+  padding: 20px;
 }
 .h2, h3, h4, h5, h6 {
   font-family: 'anton', sans-serif;
 }
-.home h1  {
+.home contact, h1  {
   font-family: 'Amatic SC', sans-serif;
   text-align: center;
   text-shadow: 0px 0px 10px #06f, 0px 0px 15px #69f, 0px 0px 20px #0ff;
@@ -88,10 +96,17 @@ nav li a:hover:not(.active) {
 }
 .home h3 {
   text-align: center;
+  margin: auto;
+  padding: 0px 40px;
 }
-.portfolio-content img {
-  border-radius: 6px;
-  margin: 0;
+#map {
+  margin: 25px auto;
+}
+.portfolio img {
+  display: block;
+  border-radius: 4px;
+  margin: auto;
+  padding: 2px;
 }
 .portfolio h1 {
   font-family: 'Amatic SC', sans-serif;
